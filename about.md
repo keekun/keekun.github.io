@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+金融专业出身大龄已婚码农，隐居乡下的三流段子手。
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[chifung.cheung@gmail.com](mailto:chifung.cheung@gmail.com)
