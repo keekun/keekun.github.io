@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 测试一下中文
+title: First Post
 ---
 
 Not bad. 
