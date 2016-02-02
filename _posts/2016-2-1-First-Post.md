@@ -1,6 +1,8 @@
 ---
 layout: post
-title: First Post
+title: 中文
+published: true
 ---
 
-Not bad. 
+
+Not bad.
