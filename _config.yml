@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Cheung Chifung
+name: "Cheung Chifung"
 
 # Short bio or description (displayed in the header)
-description: Nothing but hack
+description: "Nothing but hack"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: 
+avatar: "https://avatars1.githubusercontent.com/u/1065125?v=3&s=460"
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:chifung.cheung@gmail.com
+  email:"chifung.cheung@gmail.com"
   facebook:
   flickr:
   github: keekun
@@ -26,9 +26,9 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: keekun
+  twitter: "keekun"
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: channel/UCWuUXwMOd4_TXwaKzbjsXSw
+  youtube: "channel/UCWuUXwMOd4_TXwaKzbjsXSw"
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
