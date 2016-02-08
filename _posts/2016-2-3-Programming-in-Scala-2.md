@@ -7,7 +7,7 @@ title: Programming in Scala [2]
 
 # *Chapter 3* Next Steps in Scala
 
-## 带类型数组
+##带类型数组
 
 Scala里的用参数创建实例(parameterize)的方法：
 
@@ -28,7 +28,7 @@ for (i <- 0 to 2)
 * 类似地，`greetStrings(0) = "Hello"`相当于`greetStrings.update(0, "Hello")`
 * 不像其他语言，上述的这种变换在Scala里不会明显影响性能。Scala编译器会尽量把他们优化成Java的本地数组或者原始类型(primitive type，像int一类)。
 
-## 关于List和Tuple
+##关于List和Tuple
 
 * 如上例所示，Scala的Array是同一类型的值的可修改的序列。像上述的`Array[String]`，虽然长度不可修改，但内容可修改。所以Array是可修改的。（为避免混乱，本笔记系列会把所有mutable都译成可修改，反之immutable都译成不可修改）
 * 比Array更适合函数语言的，是List，它不可修改。它也是同一类型的值的序列。跟Java的`java.util.List`不一样，Scala的List，也就是`scala.List`，它是总不可修改的。它是为函数风格编程设计的。
@@ -146,7 +146,7 @@ val romanNumeral = Map(	1 -> "I",	2 -> "II",	3 -> "III",
 println(romanNumeral(4))
 ~~~
 
-* 跟不可修改的Set差不多，也是工厂方法。这个工厂方法就是`Map(...)`，也就是`Map.apple(...)`。
+* 跟不可修改的Set差不多，也是工厂方法。这个工厂方法就是`Map(...)`，也就是`Map.apply(...)`。
 
 未完待续。
 
