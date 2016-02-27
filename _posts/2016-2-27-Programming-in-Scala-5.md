@@ -21,8 +21,5 @@ title: Programming in Scala [5]
  - **literal identifier**: 被`‘`包住的任意字符串，可用于在使用跟Scala保留字相同名字的时候，比如`yield`是Scala的保留字，在调用Java的`Thread.yield()`时，可以写成`Thread.‘yield‘()`。
 * Scala支持任意长度的标识符，这会引起小问题。比如`x<-y`在Java里会被识别为`x < - y`四个符号，而在Scala则会被识别是为`x <- y`三个符号。要分开它们，只要在`<`和`-`间插一个空格。
 
-
-
-
-
-
+* `implicit`关键字告诉编译器如何进行自动类型转换。
+* 要小心设计自动类型转换，因为它会降低程序的可读性。（这种坑太多了，可看《Java Puzzlers》等，一抓一大堆。）
